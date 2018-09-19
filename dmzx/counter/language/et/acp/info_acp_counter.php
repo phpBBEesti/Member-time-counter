@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package phpBB Extension - Unique Visits Counter
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
@@ -34,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 
 	// ACP entries
-	'ALLOW_VISITS_COUNTER'			=> 'Enable unique visits counter',
-	'ALLOW_VISITS_COUNTER_EXPLAIN'	=> 'If this option is on No, the unique visits counter is completely disabled.',
+	'ALLOW_VISITS_COUNTER'			=> 'Luba külastuste loendur',
+	'ALLOW_VISITS_COUNTER_EXPLAIN'	=> 'Kui see valik on Ei, siis külastuste loendur on täielikult keelatud.',
 ));
