@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package phpBB Extension - Unique Visits Counter
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
@@ -37,5 +38,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'UNIQUE_VISITS_COUNTER'	=> '<strong>%d</strong> visits',
+	'UNIQUE_VISITS_COUNTER'	=> '<strong>%d</strong> külastust',
 ));
